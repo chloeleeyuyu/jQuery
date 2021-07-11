@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/effects.js"></script>
+    <style>
+        html, body, div, header, h1, img{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align:center;
+            overflow: hidden;
+        }
+        h1{
+           margin: .5em;
+        }
+        #btns .btn{
+            margin-top: 1em;
+            cursor: pointer;
+        }
+        #pic{
+            margin-top: 1.5em;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>JQuery Effects</h1>
+    </div>
+    <div id="btns" >
+        <input class="btn" type="button" value="Show">
+        <input  class="btn" type="button" value="Hide">
+        <input  class="btn" type="button" value="Toggle">
+        <input  class="btn" type="button" value="FadeIn">
+        <input  class="btn" type="button" value="FadeOut">
+        <input  class="btn" type="button" value="FadeTo50">
+        <input  class="btn" type="button" value="FadeTo100">
+        <input  class="btn" type="button" value="FadeToggle">
+        <input  class="btn" type="button" value="SlideDown">
+        <input  class="btn" type="button" value="SlideUp">
+        <input  class="btn" type="button" value="SlideToggle">
+    </div>
+    <div>
+        <img id="pic" src="img/01.jpg" alt="">
+    </div>
+</body>
+</html>
